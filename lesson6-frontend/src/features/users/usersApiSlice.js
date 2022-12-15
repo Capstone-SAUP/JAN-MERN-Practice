@@ -36,7 +36,7 @@ export const usersApiSlice = apiSlice.injectEndpoints({
 })
 
 export const {
-  useGetUserQuery,
+    useGetUsersQuery,
 } = usersApiSlice
 
 // returns the query result object
